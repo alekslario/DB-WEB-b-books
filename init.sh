@@ -17,5 +17,5 @@ GRANT ALL PRIVILEGES ON ${MAINDB}.* TO '${USER}'@'localhost';
 FLUSH PRIVILEGES;
 USE ${MAINDB};
 source create_db.sql;
-source insert_data.sql;
+insert_test_data.sql;
 MYSQL_SCRIPT
