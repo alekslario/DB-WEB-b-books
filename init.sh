@@ -4,7 +4,7 @@ sudo apt update
 sudo apt install mysql-server
 sudo systemctl start mysql.service
 # create random password
-PASSWDDB="1234"
+PASSWDDB="123"
 MAINDB="bettys_books"
 # replace "-" with "_" for database username
 USER="alari001"
